@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/harmonise.css" type="text/css" />
+<link rel="stylesheet" href="../css/base-groups.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+<![endif]-->
+<title>Fuzzy Drop Shadow Example | Chapter 4 | CSS Mastery </title>
+</head>
+<style type="text/css">
+<!--
+
+/* easy drop shadow */
+
+.img-wrapper {
+  background: url(img/shadow.gif) no-repeat right bottom;
+  float: left;
+	/*margin: 10px 0 0 10px;*/
+}
+
+.img-wrapper div {
+  background: url(img/mask.png) no-repeat left top !important;
+  background: url(img/mask.gif) no-repeat left top;
+  padding: 0 5px 5px 0;
+	float: left; /* :KLUDGE: Fixes bug in IE/Mac */
+}
+ 
+.img-wrapper img {
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+	padding: 4px;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<h1>Fuzzy Drop Shadow Example</h1>
+
+<div class="img-wrapper">
+<div><img src="img/dunstan.jpg" width="300" height="300" alt="Dunstan Orchard" /></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Simple Form</title>
+<style type="text/css">
+<!--
+
+body {
+	font: 62.5%/1 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+form {
+  font-size: 1.4em;
+	width: 30em;
+}
+
+
+/* fieldset styling */
+fieldset {
+	margin: 1em 0; /*  space out the fieldsets a little*/
+	padding: 1em;
+	border : 1px solid #ccc;
+}
+
+/* legend styling */
+legend {
+	font-weight: bold;
+}
+
+form div {
+	padding: 0.4em 0;
+}
+
+
+/* style for  labels */
+label {
+	display: block;
+}
+
+/* style for required labels */
+label .required {
+	font-size: 0.75em;
+	color:#760000;
+}
+
+input {
+  width: 20em;
+}
+
+textarea {
+	width: 100%;
+	height: 10em;
+}
+
+input.radio, input.submit {
+  width: auto;
+}
+
+#remember-me .radio {
+	margin-right: 1em;
+}
+
+/* style form elements on focus */
+input[type="text"]:focus, textarea:focus {
+	background: #ffc;
+}
+
+-->
+</style>
+</head>
+
+<body>
+
+<form id="comments_form" action="#" method="post">
+
+<fieldset>
+	<legend>Your Contact Details</legend>
+	<div>
+	<label for="author">Name: <em class="required">(Required)</em></label>
+	<input name="author" id="author" type="text" />
+	</div>
+	
+	<div>
+	<label for="email">Email Address:</label>
+	<input name="email" id="email" type="text" />
+	</div>
+	
+	<div>
+	<label for="url">Web Address:</label>
+	<input name="url" id="url" type="text" />
+	</div>
+</fieldset>
+
+<fieldset>
+	<legend>Comments</legend>
+	<div>
+	<label for="text">Message: <em class="required">(Required)</em></label>
+	<textarea name="text" id="text" cols="20" rows="10"></textarea>
+	</div>
+</fieldset>
+
+<fieldset id="remember-me">
+	<legend>Remember Me</legend>
+		<div>
+		<label for="remember-yes"><input id="remember-yes" class="radio" name="remember" type="radio" value="yes" />Yes</label>
+		</div>
+		
+		<div>
+		<label for="remember-no"><input id="remember-no" class="radio" name="remember" type="radio" value="no" checked="checked" />No</label>
+		</div>
+		
+</fieldset>
+
+<div>
+<input id="submit" class="submit" name="submit" type="submit"/>
+</div>
+
+
+</form>
+</body>
+</html>

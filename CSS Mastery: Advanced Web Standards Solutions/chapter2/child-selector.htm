@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/harmonise.css" type="text/css" />
+<link rel="stylesheet" href="../css/base-groups.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+<![endif]-->
+<title>Child and Adjacent Sibling Selector Example | Chapter 2 | CSS Mastery </title>
+</head>
+<style type="text/css">
+<!--
+
+#nav > li {
+  background: url(img/folder.png) no-repeat left top;
+  padding-left: 20px;
+}
+
+#nav ul {
+  margin-left: 1em;
+}
+
+
+h2 + p {
+	font-size: 1em;  font-weight: bold;
+	color: #777;}
+
+-->
+</style>
+</head>
+
+<body>
+<h1>Child Selector Example</h1>
+<p>The following navigation list should have folder icons next to the top level categories, but nothing next to the sub categories.</p>
+
+<ul id="nav" class="example">
+<li><a href="/home/">Home</a></li>
+<li><a href="/services/">Services</a>
+<ul>
+<li><a href="/services/design/">Design</a></li>
+<li><a href="/services/development/">Development</a></li>
+<li><a href="/services/consultancy/">Consultancy</a></li>
+</ul>
+</li>
+<li><a href="/contact/">Contact Us</a></li>
+</ul>
+
+<h1>Adjacent Sibling Selector Example</h1>
+
+<p>The first paragraph after the heading should be larger, bold and light gray. The second paragraph should be normal.</p>
+
+<div class="example">
+<h2>Peru Celebrates Guinea Pig festival</h2><p>The guinea pig festival in Peru is a one day event to celebrate these cute local animals. The festival included a fashon show where animals are dressed up in various amusing costumes.</p><p>Guinea pigs can be fried, roasted or served in a casserole. Around 65 million guinea pigs are eaten in Peru each year.</p>
+</div>
+
+</body>
+</html>

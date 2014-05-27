@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/harmonise.css" type="text/css" />
+<link rel="stylesheet" href="../css/base-groups.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+<![endif]-->
+<title>Rounded corner box using border images | Chapter 4 | CSS Mastery </title>
+<style  type="text/css">
+
+/* Pretty */
+
+
+.box {
+	width: 30em;
+	background-color: #89ac11;
+	color: #fff;
+	padding: 0.8em 0.8em 0em 0.8em;
+	margin-top: 2em;
+}
+
+.box p {
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 1.6em;
+}
+
+/* Example */
+
+.box {
+  -webkit-border-image: url(img/corners.gif)
+  25% 25% 25% 25% / 25px round round;
+}
+
+</style>
+</head>
+<body>
+
+<div class="box">
+<h2>Yet Another Rounded Corner Box</h2>
+<p>This is another rounded corner box. Isn't it groovey! Forget what I said about those other boxes. This is my favorite box around. I mean, look at those corners. How round are they? Now take a look at the mark-up. That's right, no extraneous div's. Just pure HTML goodness. Sexy huh? This one uses a single image which the browser uses to make up the sides, corners and body of the box. Aren't they clever! They'll be making your tea next!</p>
+</div>
+
+
+</body>
+</html>

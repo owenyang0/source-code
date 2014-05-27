@@ -1,0 +1,43 @@
+/* @group General styles
+========================================= */
+
+body {
+	background-color: #fff;
+	padding: 0;
+	max-width: 100%;
+}
+
+
+
+
+/* @group Helper styles
+========================================= */
+
+.example {
+	border: 1px solid #ccc;
+	padding: 2em;
+}
+
+.null {
+	color: #777;
+}
+
+ol.index {
+  list-style-type: none;
+	font-weight: 600;
+	margin-left: 0;
+}
+
+ol.index li li {
+	margin-left: 1em;
+	font-weight: normal;
+}
+
+
+/* @group Page structure
+========================================= */
+
+
+
+/* @group Overrides
+========================================= */

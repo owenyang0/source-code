@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/harmonise.css" type="text/css" />
+<link rel="stylesheet" href="../css/base-groups.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+<![endif]-->
+<title>Floating Example | Chapter 3 | CSS Mastery </title>
+<style type="text/css">
+<!--
+.container {
+	border: 1px solid #BAB9B8;
+	width: 800px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.box {
+	background: #FFFCC4;
+	border: 1px dotted #BAB9B8;
+	width: 200px;
+	height: 100px;
+	margin: 20px;
+	position: relative;
+}
+
+.box span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+
+-->
+</style>
+</head>
+
+<body>
+
+<h1>Floating box example</h1>
+
+<p>Box 1 is being floated to the right.</p>
+
+<div class="container">
+<div class="box floatRight"><span>Box 1</span></div>
+<div class="box"><span>Box 2</span></div>
+<div class="box"><span>Box 3</span></div>
+</div>
+
+<p>Box 1 is being floated to the left, and is hidden under box 1.</p>
+
+<div class="container">
+<div class="floatLeft box"><span>Box 1</span></div>
+<div class="box"><span>Box 2</span></div>
+<div class="box"><span>Box 3</span></div>
+</div>
+
+<p>All three boxes are floated.</p>
+
+<div class="container">
+<div class="box floatLeft"><span>Box 1</span></div>
+<div class="box floatLeft"><span>Box 2</span></div>
+<div class="box floatLeft"><span>Box 3</span></div>
+</div>
+
+
+</body>
+</html>

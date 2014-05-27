@@ -1,0 +1,61 @@
+/*
+
+	CLIMB THE MOUNTAINS by ERSKINE DESIGN
+	VERSION 1.0
+	IE7 OVERRIDE STYLES
+	
+    CONTENTS ----------
+	
+        1. IMAGES
+        2. SITEINFO/FOOTER
+        3. GLOBALS ELEMENTS
+            3.1 CAPTIONED IMAGE
+        4. HOMEPAGE
+            4.1 CONTENT PRIMARY
+            4.2 CONTENT TERTIARY
+	   
+    -------------------
+	
+*/
+
+
+
+/* 1.IMAGES
+---------------------------------------------------------------------- */
+
+img.avatar { border:2px solid #ccc; }
+
+.polaroid { border:5px solid #ccc; }
+
+
+
+/* 2.SITEINFO/FOOTER
+---------------------------------------------------------------------- */
+
+div#siteinfo { padding:0; }
+
+p#siteinfo_disclaimer { top:-5px; }
+
+
+
+/* 3.GLOBAL ELEMENTS
+---------------------------------------------------------------------- */
+
+/* 3.1 CAPTIONED IMAGE ------------ */
+
+	div.captioned_image p.caption { background:#666; }
+	
+	
+	
+/* 4.HOMEPAGE
+---------------------------------------------------------------------- */
+
+/* 4.1 CONTENT PRIMARY ------------ */
+
+	.home div#content_pri div.captioned_image p { width:300px; }
+	
+/* 4.1 CONTENT TERTIARY ------------ */
+
+	div#community_flickr { width:465px; float:right; margin:0 -15px 0 0; }
+	div#community_flickr ul { list-style:none; margin:0; }
+	div#community_flickr ul li { border:4px solid #ccc; }

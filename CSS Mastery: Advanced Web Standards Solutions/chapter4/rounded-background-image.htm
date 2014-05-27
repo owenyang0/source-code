@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/harmonise.css" type="text/css" />
+<link rel="stylesheet" href="../css/base-groups.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="../css/ie.css" />
+<![endif]-->
+<title>Rounded corner box using multiple background images | Chapter 4 | CSS Mastery </title>
+<style  type="text/css">
+
+/* Pretty */
+
+.box {
+	width: 30em;
+	background: #89ac11 url(img/mtop-left.gif) left top no-repeat;
+	color: #fff;
+	padding: 2em 2em 1em 2em;
+	margin-top: 2em;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 1.6em;
+}
+
+/* Example */
+
+.box {
+	background-image: url(img/mtop-left.gif), url(img/mtop-right.gif), url(img/mbottom-left.gif), url(img/mbottom-right.gif);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+</style>
+</head>
+<body>
+
+<div class="box">
+<h2>My Rounded Corner Box</h2>
+<p>This is my rounded corner box. Isn't it spiffing! I think it's the best rounded corner box in the world. I mean, look at those corners. How round are they? Now take a look at the mark-up. That's right, no extraneous div's. Just pure HTML goodness. Sexy huh? I bet you're wondering how I did that? Well it's easy with CSS 3. You simply use multiple background images. </p>
+</div>
+
+
+</body>
+</html>
