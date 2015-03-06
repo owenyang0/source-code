@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>Unobtrusive tabbed panels solution</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="tabs.css" media="screen, projection">
+  </head>
+  <body>
+    <h1>Unobtrusive tabbed panels</h1>
+    <div class="tabbed-panel">
+      <ol id="news-tabs" class="nav">
+        <li><a href="#news">News</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#economy">Economy</a></li>
+      </ol>
+      <div class="section">
+        <h2><a name="news">News</a></h2>
+        <p>Lots of contents go here</p>
+      </div>
+      <div class="section">
+        <h2><a name="sports">Sports</a></h2>
+        <p>Boring stuff right here</p>
+      </div>
+      <div class="section">
+        <h2><a name="economy">Economy</a></h2>
+        <p>Important, yet still boring stuff here</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="lib/tdd.js"></script>
+    <script type="text/javascript" src="lib/object.js"></script>
+    <script type="text/javascript" src="src/tab_controller.js"></script>
+    <script type="text/javascript" src="src/tabbed_panel.js"></script>
+  </body>
+</html>

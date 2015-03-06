@@ -1,0 +1,30 @@
+#cont-1 {
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.tabs-container {
+    clear: left;
+}
+
+.tabs-nav .nav {
+    background: #eee;
+    border: 1px solid #000;
+    border-bottom: none;
+    color: #00c;
+    cursor: pointer;
+    display: block;
+    text-decoration: underline;
+    padding: 4px 8px;
+}
+
+.tabs-selected .nav {
+    background: #fff;
+    color: #000;
+    cursor: default;
+    text-decoration: none;
+}
+
+.tabs-hide {
+    display: none;
+}

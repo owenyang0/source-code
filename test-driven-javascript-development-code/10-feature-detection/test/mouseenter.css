@@ -1,0 +1,39 @@
+#main {
+    background: #f0f0f0;
+    border: 2px solid red;
+    float: left;
+    line-height: 20px;
+    margin: 0 auto;
+    min-height: 20px;
+    padding: 240px 0;
+    position: relative;
+    text-align: center;
+    width: 500px;
+}
+
+.box {
+    border: 2px solid green;
+    height: 40px;
+    position: absolute;
+    width: 40px;
+}
+
+#box1 {
+    left: -2px;
+    top: -2px;
+}
+
+#box2 {
+    right: 20px;
+    top: 20px;
+}
+
+#box3 {
+    bottom: 20px;
+    right: 20px;
+}
+
+#box4 {
+    bottom: 20px;
+    left: 20px;
+}

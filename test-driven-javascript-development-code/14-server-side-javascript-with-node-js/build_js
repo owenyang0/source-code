@@ -1,0 +1,16 @@
+juicer merge -s -f -o public/js/chat.min.js \
+  public/js/function.js \
+  public/js/object.js \
+  public/js/tdd.js \
+  public/js/observable.js \
+  public/js/form_controller.js \
+  public/js/user_form_controller.js \
+  public/js/json2.js \
+  public/js/url_params.js \
+  public/js/ajax.js \
+  public/js/request.js \
+  public/js/poller.js \
+  public/js/comet_client.js \
+  public/js/message_list_controller.js \
+  public/js/message_form_controller.js \
+  public/js/chat_client.js
