@@ -1,0 +1,27 @@
+eqfeed_callback({
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1408030886000,
+    "url": "http://earthquake.usgs.gov/earthquakes/...",
+    "title": "USGS All Earthquakes, Past Day",
+    "status": 200, "api": "1.0.13", "count": 134
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "title": "M 0.8 - 3km WSW of Idyllwild-Pine Cove, California",
+        "place": "3km WSW of Idyllwild-Pine Cove, California",
+        "time": 1408030368460,
+        ...
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -116.7636667, 33.7303333, 17.33 ]
+      },
+      "id": "ci15538377"
+    },
+    ...
+  ]
+})
